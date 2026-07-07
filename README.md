@@ -1,12 +1,12 @@
 # "CALL ME TRIMTAB" - BUCKY
 
-A trim tab is the small rudder bolted to the trailing edge of a ship's big rudder. The big rudder is too heavy to push directly, so you turn the small one. The water does the work, the big rudder swings, and the whole ship comes around.
+A trim tab is the small rudder bolted to the trailing edge of a ship's big rudder. The big rudder is too heavy to push directly, so you turn the small one. Deflecting the tab generates lift on the tab. That lift is small, but it acts at the trailing edge, the longest moment arm available on the rudder. This produces enough torque about the rudder stock to rotate the whole thing. The rudder then generates the turning force on the hull.
 
-Nobody hands you the wheel on any big systems, and most of them can't be replaced. But all of them have a trailing edge.
+Nobody hands you the wheel on any big systems, and most of them can't be easily replaced. But they all have a trailing edge.
 
-Every repo here is a trim tab. Small tools, built for zero dollars a month, that push on one surface of one big system and let leverage do the rest.
+Every repo here is a trim tab. Small tools, built for zero dollars a month, that push on one surface of a big system.
 
-Below is the shop floor. The board updates itself.
+Below is the shop floor. The board updates automatically.
 
 ## Line status
 
@@ -14,14 +14,14 @@ Below is the shop floor. The board updates itself.
 
 | Asset | Steers | Status | Last service |
 | --- | --- | --- | --- |
-| [garmin-notion](https://github.com/bhanke-lab/garmin-notion) | Automated sync of Garmin data to Notion. | IN SERVICE | 2026-06-25 |
+| [garmin-notion](https://github.com/bhanke-lab/garmin-notion) | Watch data into my training log | IN SERVICE | 2026-06-25 |
 | [local-inventory-scanner](https://github.com/bhanke-lab/local-inventory-scanner) | Who took what from the parts room | IN SERVICE | 2026-06-30 |
 | [notion-morning-print](https://github.com/bhanke-lab/notion-morning-print) | The first ten minutes of my morning | IN SERVICE | 2026-06-30 |
 | [paper-route](https://github.com/bhanke-lab/paper-route) | Scheduled BI reports onto a wall-mounted TV | IN SERVICE | 2026-06-30 |
 | [TENON](https://github.com/bhanke-lab/TENON) | Sawing orders into TrimExpert product lists | IN SERVICE | 2026-07-07 |
 | [trimtab](https://github.com/bhanke-lab/trimtab) | What the trimmer decides a board is worth | IN SERVICE | 2026-07-01 |
 
-Last inspection: 2026-07-07 19:25 UTC
+Last inspection: 2026-07-07 19:57 UTC
 
 Days since the last manual process was eliminated: 7
 <!-- BOARD:END -->
@@ -80,7 +80,7 @@ Every tool here exists because something broke. The tickets are closed but kept 
 - Parts: Excel, Power Query, Office Scripts, Python.
 - Surface pushed: the price grid, which is the only thing the machine actually listens to.
 
-### WO-0007: [garmin-to-notion](https://github.com/bhanke-lab/garmin-to-notion)
+### WO-0007: [garmin-notion](https://github.com/bhanke-lab/garmin-notion)
 
 - Symptom: years of training data locked in a watch vendor's app.
 - Root cause: vendors don't export to where you actually live.
